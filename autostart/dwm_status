@@ -1,0 +1,6 @@
+#!/usr/bin/dash
+
+while true; do
+  xsetroot -name "$($HOME/.local/bin/dwm-status/resources.sh)"
+    sleep 1s
+done
